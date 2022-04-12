@@ -15,9 +15,9 @@ public class AppTest {
         assertEquals("Origem", classifica.result(0.0,0.0));
     }
 
-    @DisplayName("Test get Q1")
+    @DisplayName("Test get Q4")
     @Test
     public void testGet() {
-        assertEquals("Q1", classifica.result(0.1,0.1));
+        assertEquals("Q4", classifica.result(4.5,-2.2));
     }
 }
